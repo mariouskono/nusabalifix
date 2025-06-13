@@ -1,0 +1,7 @@
+hapi
+inert
+pathlib
+numpy
+pandas
+scikit-learn
+tensorflow

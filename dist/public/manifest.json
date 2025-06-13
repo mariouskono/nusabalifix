@@ -1,0 +1,59 @@
+{
+  "name": "NusaBali",
+  "short_name": "NusaBali",
+  "description": "Wisata Terbaik Untuk Memulai Perjalananmu di Bali",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4475F2",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "id",
+  "dir": "ltr",
+  "categories": ["social", "recommendation", "travel"],
+  "icons": [
+    {
+      "src": "/public/icons/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/public/icons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/public/icons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "Screenshot/1.png",
+      "type": "image/png",
+      "sizes": "2863x1465",
+      "form_factor": "wide"
+    },
+    {
+      "src": "Screenshot/2.png",
+      "type": "image/png",
+      "sizes": "2874x1463",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Destinasi Wisata",
+      "short_name": "Destinasi",
+      "description": "Lihat destinasi wisata di Bali",
+      "url": "/#/destination",
+      "icons": [{ "src": "icons/favicon-96x96.png", "sizes": "96x96" }]
+    }
+  ],
+  "display_override": ["standalone"],
+  "prefer_related_applications": false
+}
